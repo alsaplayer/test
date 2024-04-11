@@ -1,0 +1,53 @@
+#
+# alsaplayer config file
+#
+# Only edit this file if the application is not active.
+# Any modifications might (will!) be lost otherwise.
+#
+blurscope.active=false
+cdda.cddb_servername=gnudb.gnudb.org/~cddb/cddb.cgi
+cdda.cddb_serverport=80
+cdda.device=/dev/cdrom
+cdda.do_cddb_lookup=true
+gtk2_interface.background_colour=#000000
+gtk2_interface.default_playlist_add_path=/home/dom/Documents/ La chorale/lachorale/static/sons
+gtk2_interface.default_playlist_load_path=/home/dom/Musique/Afro Cuban Roots Vol.4 (1998) Benny Moré - The Best
+gtk2_interface.default_playlist_save_path=.
+gtk2_interface.font_colour=#FFFFFF
+gtk2_interface.fonts=Sans 12
+gtk2_interface.height=248
+gtk2_interface.loop=0
+gtk2_interface.play_on_add=true
+gtk2_interface.play_on_title=true
+gtk2_interface.playlist_active=true
+gtk2_interface.playlist_height=1
+gtk2_interface.scopeswindow_active=false
+gtk2_interface.smooth_transition=false
+gtk2_interface.width=721
+http.buffer_size=1048576
+jack.output1=system:playback_1
+jack.output2=system:playback_2
+levelmeter.active=false
+logbarfft.active=false
+mad.parse_id3=true
+main.default_interface=gtk2
+main.default_output=alsa
+main.fallback_interface=text
+main.multiopen=true
+main.period_count=8
+main.period_size=4096
+main.play_on_start=true
+monoscope.active=false
+opengl_spectrum.active=false
+opengl_spectrum.height=900
+opengl_spectrum.width=1600
+spacescope.active=false
+synaescope.active=false
+xosd_interface.color=#55ff55
+xosd_interface.font=-adobe-helvetica-medium-r-normal-*-24-*-*-*-*-*-*-*
+xosd_interface.h_offset=20
+xosd_interface.outline_color=red
+xosd_interface.outline_offset=3
+xosd_interface.shadow=5
+xosd_interface.timeout=8
+xosd_interface.v_offset=20
